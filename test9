@@ -1,0 +1,25 @@
+correct_password = "12345"
+attempts = 3
+while attempts > 0:
+    password = input("Enter password: ")
+    if password == correct_password:
+        print("access grented")
+        break
+    else:
+        attempts -= 1
+        print(f"wrong password {attempts} attempts left.")
+if attempts == 0:
+        print("access denied")
+
+num = 2
+while num <= 50:
+    print(num, end=" ")
+    num +=2
+
+total = 0
+while True:
+    num = int(input("Enter a number (0 to stop): "))
+    if num == 0:
+        break
+    total += num
+print("total sum: ", total)
