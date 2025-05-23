@@ -1,4 +1,4 @@
-'''# this is a single-line comment
+# this is a single-line comment
 
 file = open("data.txt","r")
 
@@ -18,13 +18,13 @@ with open("output.txt", "w") as file:
 try:
     result = 5 / 0
 except: ZeroDivisionError
-print("Cannot dvide by Zero.")
+print("Cannot dvide by Zero.")kjgvujf
 
 with open("my_file.txt", "r+") as file:
     file.write("new data")
 
 with open("text_data.txt", "w") as file:
-    file.write("this is some text data")'''
+    file.write("this is some text data")
 
 def safe_divide(num1, num2):
     try:
